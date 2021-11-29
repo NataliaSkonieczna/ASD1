@@ -43,5 +43,6 @@ for i in range(0,1000000):
 
 
 start_time = time.time()
-cProfile.run('mergeSort(A,len(A))')
+mergeSort(A,len(A))
+print(A)
 print("--- %s seconds ---" % (time.time() - start_time))
